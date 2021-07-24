@@ -3,7 +3,11 @@ import "./home.scss";
 function Home() {
   return (
     <div className='homepage'>
-      <h1>My information goes here</h1>
+      <div className='info'>
+        <h1>I am Ganesh Timalsena</h1>
+        <p>Full-Stack Developer</p>
+        <p>Certified AWS Solution Archiecture Associates</p>
+      </div>
     </div>
   );
 }
