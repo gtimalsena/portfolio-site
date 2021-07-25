@@ -3,11 +3,12 @@ import "./home.scss";
 function Home() {
   return (
     <div className='homepage'>
-      <div className='info'>
-        <h1>I am Ganesh Timalsena</h1>
-        <p>Full-Stack Developer</p>
-        <p>Certified AWS Solution Archiecture Associates</p>
-      </div>
+      <header>
+        <div className='info'>
+          Proven Full Stack developer for core development.
+        </div>
+        <div className='imagespace'>Find image to go here</div>
+      </header>
     </div>
   );
 }

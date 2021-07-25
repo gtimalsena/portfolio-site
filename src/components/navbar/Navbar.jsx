@@ -5,15 +5,17 @@ import "./navbar.scss";
 function Navbar() {
   return (
     <div className='navcontainer'>
-      <div className='logo'>
-        <Link to='/'>Ganesh Timalsena</Link>
-      </div>
-      <div className='menu'>
-        <Link to='/'>Home</Link>
-        <Link to='/about'>About Me</Link>
-        <Link to='/projects'>Projects</Link>
-        <Link to='/experiences'>Experiences</Link>
-      </div>
+      <header>
+        <div className='logo'>
+          <Link to='/'>Ganesh Timalsena</Link>
+        </div>
+        <div className='menu'>
+          <Link to='/'>Home</Link>
+          <Link to='/about'>About Me</Link>
+          <Link to='/projects'>Projects</Link>
+          <Link to='/experiences'>Experiences</Link>
+        </div>
+      </header>
     </div>
   );
 }

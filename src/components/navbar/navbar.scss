@@ -1,27 +1,32 @@
 @import "../../global";
 .navcontainer {
   width: 100%;
-  height: 70px;
   background-color: $secondary-color;
-  display: flex;
-  justify-content: space-evenly;
+
+  header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
   .logo {
     font-size: 2rem;
     display: flex;
-    flex: 50%;
     align-items: center;
-    padding-left: 30px;
+    a {
+      text-decoration: none;
+      color: $primary-color;
+    }
   }
   .menu {
     font-size: 1rem;
     display: flex;
-    flex: 50%;
     align-items: center;
-    padding-right: 30px;
-  }
-  a {
-    text-decoration: none;
-    color: $primary-color;
-    padding-left: 25px;
+
+    a {
+      text-decoration: none;
+      color: $primary-color;
+      padding-left: 40px;
+    }
   }
 }
